@@ -1,0 +1,14 @@
+denis@VM1:~/Desktop/de10_ft2232h/test$ sudo ./check_device.py 
+Available interfaces:
+  ftdi://ftdi:2232:FT4IKI36/1   (FT2232H MiniModule)
+  ftdi://ftdi:2232:FT4IKI36/2   (FT2232H MiniModule)
+  ftdi://ftdi:2232:FT4IHIJU/1   (FT2232H MiniModule)
+  ftdi://ftdi:2232:FT4IHIJU/2   (FT2232H MiniModule)
+
+denis@VM1:~/Desktop/de10_ft2232h/test$ sudo ./check_uart.py 
+b'Hello UART'
+
+denis@VM1:~/Desktop/de10_ft2232h/test$ sudo ./check_spi.py 
+bytearray(b'Hello SPI')
+
+
